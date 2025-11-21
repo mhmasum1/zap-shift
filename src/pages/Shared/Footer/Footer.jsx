@@ -1,15 +1,11 @@
 import React from 'react';
-import logo from '../../../assets/logo.png'
+import Logo from '../../../components/Logo/Logo';
 const Footer = () => {
     return (
-        <footer className="footer footer-horizontal footer-center p-10">
+        <footer className="footer footer-horizontal text-secondary footer-center p-10">
             <aside>
-                <img src={logo} alt="" />
-                <p className="font-bold">
-                    ACME Industries Ltd.
-                    <br />
-                    Providing reliable tech since 1992
-                </p>
+                <Logo></Logo>
+                <p className="font-bold"> Providing reliable tech since 1992</p>
                 <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
             </aside>
             <nav>
