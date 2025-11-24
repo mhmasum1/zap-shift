@@ -21,7 +21,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className=' flex items-center gap-1  '>
-                    <a className="btn btn-ghost text-xl">
+                    <a className="btn bg-transparent  border-none ">
                         <Logo></Logo>
                     </a>
                 </div>
